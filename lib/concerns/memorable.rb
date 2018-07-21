@@ -1,0 +1,12 @@
+module Memorable
+
+#when you do use self on all these per the commented out code in artist and song, it fails...why?
+  def reset_all
+    all.clear
+  end
+
+  def count
+   all.count
+  end
+
+end
